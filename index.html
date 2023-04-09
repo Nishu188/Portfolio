@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/bdb45e9241.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div id="Header">
+        <div class="container">
+            <nav>
+                <ul id="sidemenu">
+                    <li><a href="#header">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#services">SERVICES</a></li>
+                    <li><a href="#portfolio">PORTFOLIO</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                    <i class="fa-sharp fa-solid fa-circle-xmark  fas" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars fas" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Fronted-Developer</p>
+                <h1>Hi, I'm <span>Nishu Gupta</span> from Ballia</h1>
+
+            </div>
+        </div>
+    </div>
+    <!-- about -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.jpeg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>As a web developer, front-end developer, and coder,
+                        I have a passion for learning new skills and staying
+                        up-to-date with the latest technologies. My leadership skills,
+                        communication skills, and management abilities allow me to
+                        effectively lead and manage projects, ensuring they are
+                        completed on time and within budget. Additionally,
+                        my presentation skills make me an effective communicator
+                        of complex technical information to both clients and team
+                        members. I am committed to excellence in all aspects of my w
+                        ork, and strive to continuously improve my skills and knowledge
+                        to provide the best possible results for my clients and team.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experiences</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+
+                    <div class="tab-contents  active-tab" id="skills">
+                        <ul>
+                            <li> <span>Web Development</span><br>As a passionate
+                                web developer, I have a strong background in
+                                front-end development and coding, with a commitment to
+                                delivering high-quality work that exceeds client
+                                expectations.</li>
+                            <li> <span>Coder</span><br>As a coder,
+                                am dedicated to writing clean, efficient, and maintainable code with a focus on
+                                problem-solving and continuous learning to deliver robust and effective solutions</li>
+
+
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li> <span>Full Stack Web Development Program </span><br>
+                                My four-month internship with Edureka in the Fullstack program was a rewarding
+                                experience. I gained practical experience in various Fullstack technologies and received
+                                guidance from my mentor and the Edureka team.
+                                Receiving the super-intern certificate based on overall performance during the
+                                internship period was an honor.
+                            </li>
+                            <li> <span>Coding</span><br>As a coder, I enjoy the challenge of solving problems on
+                                platforms like LeetCode. It allows me to hone my skills and learn new techniques in a
+                                fun and engaging way. #codinglife #LeetCode #problemsolving #skillsdevelopment
+                            </li>
+                            <li> <span>2020</span><br>Rank Holder In UPTU Examinination.</li>
+
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li> <span>2017</span><br>10th - Jawahar Navodaya Vidhalaya </li>
+                            <li> <span>2019</span><br>12th- Kunwar Convent Sr.Sec.School</li>
+                            <li> <span>2020-2024</span><br>Btech(Information Technology)Kamla Nehru Institute Of
+                                Technology</li>
+
+
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- ---------------------------------------services-------------------------------- -->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Fronted-Development</h2>
+                    <p>I can provide quality front-end development services
+                        for your website using HTML, CSS, and Javascript.
+                        Let me help you create an engaging and user-friendly website.
+                        #frontenddevelopment #HTML #CSS #Javascript #websitedesign</p>
+                    <a href="#portfolio">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Portfolio-Making</h2>
+                    <p>I can help you create a fantastic portfolio website that showcases your skills and
+                        accomplishments. Let's create a stunning online presence together.
+                        #portfoliowebsite #webdesign #personalbranding #onlinereputation</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- -----------------------portfolio--------------- -->
+
+    <div id="portfolio">
+
+        <div class="contaniner">
+            <h1 class="sub-title n1">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-11.png" />
+                    <div class="layer">
+                        <h3>Women In Tech Site</h3>
+                        <p>This site is built using HTML, CSS, and JavaScript to create a
+                            responsive and user-friendly experience. It includes multiple
+                            pages such as Home, About, and Contact, and focuses on empowering
+                            women in technology and promoting gender equality in the industry.
+                            Explore our mission and initiatives today!</p>
+                        <a href="https://github.com/Nishu188/Bellatrix/tree/main"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-21.png" />
+                    <div class="layer">
+                        <h3>FeelTheMusic</h3>
+                        <p>Welcome to FeelTheMusic, a single-page website built using HTML, CSS, and JavaScript. Here,
+                            you can play, pause, and forward music all in one place. Our site is designed for music
+                            lovers who want a simple, user-friendly experience. So, put on your headphones and enjoy
+                            your favorite tunes
+                            with ease on FeelTheMusic!</p>
+                        <a href="https://github.com/Nishu188/PLay-Music"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-31.png" />
+                    <div class="layer">
+                        <h3>Movie-Rating</h3>
+                        <p>Welcome to our movie rating website, built using HTML, CSS, JavaScript, and API integration
+                            with IMDB. Search for any movie and get its rating and summary instantly. Our site provides
+                            a user-friendly experience for movie enthusiasts who want quick access to ratings and
+                            summaries before watching a movie. Explore and find your next
+                            favorite movie on our site!</p>
+                        <a href="https://movie-rat.netlify.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <a href="https://github.com/Nishu188" class="btn">See More</a>
+
+        </div>
+
+
+    </div>
+
+    <!-- ----------------contact----------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p> <i class="fa-sharp fa-solid fa-paper-plane"></i>ng18122002@gmail.com</p>
+                    <div class="social-icons">
+                        <a href="https://github.com/Nishu188"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/nishu-gupta-408055266/"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                        <a href="#"><i class="fa-solid fa-star"></i></a>
+                    </div>
+                    <a href="images/me resume.pdf" download class="btn btn2">Download Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email " required>
+                        <textarea name="Message"   rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+
+
+
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+
+
+    </script>
+    <script>
+        var sidemenu= document.getElementById("sidemenu");
+
+        function openmenu() {
+           sidemenu.style.right="0";
+        }
+
+        function closemenu() {
+           sidemenu.style.right="-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxCCBukqUMCh0n4gCQ44dq6dRB7JFqbfAcxsvClFDft-dZ312RQ5CrvzP7gp8uvLd8/exec'
+        const form = document.forms['submit-to-google-sheet']
+
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML= "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML=""
+                },5000)
+
+                form.reset()
+
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+
+</html>
